@@ -1,0 +1,69 @@
+Part 2: Case Study Analysis 
+Case Study 1: Biased Hiring Tool (Amazon Recruiting System)
+
+    1. Source of Bias
+      A. Biased Training Data
+         - The AI was trained on historical hiring data from a male-dominated tech workforce. The model learned to associate “male” 
+          patterns with success and treated female-linked data as less favorable.
+
+      B. Gender-Linked Keywords
+         - The system penalized CVs containing terms such as “women’s chess club” or graduates of women’s colleges, because these cues acted as gender proxies.
+
+      C. Feature Correlations to Gender
+         - Even without explicit gender labels, the AI picked up subtle linguistic patterns and job histories more common among male applicants, reinforcing bias.
+      
+      Summary:
+        - The model absorbed discriminatory patterns from historical hiring decisions and replicated them.
+
+    2. Fixes to Improve Fairness
+      Fix 1: Clean and Rebalance the Training Data
+          - Remove gender-coded terms and proxies.
+          - Rebalance the dataset to include successful examples from diverse genders.
+          - Use data augmentation if representation is limited.
+   
+      Fix 2: Apply Fairness Constraints During Training
+          - Use algorithms with built-in fairness constraints (e.g., equalized odds, demographic parity).
+          - Apply reweighing, adversarial debiasing, or threshold adjustments.
+
+      Fix 3: Add Human Oversight (Human-in-the-Loop)
+          - Require hiring managers to review model outputs rather than accept them blindly.
+          - Include explainability tools to justify recommendations.
+
+    3. Fairness Metrics for Evaluation
+      Metric 1: Demographic Parity
+         - Check whether men and women receive similar positive predictions (shortlisting or “qualified” labels).
+      Metric 2: Equal Opportunity / Equalized Odds
+         - Ensure qualified women and qualified men have similar true positive and false negative rates.
+      Metric 3: Disparate Impact Ratio
+         Compute:
+         - Selection rate of females ÷ selection rate of males
+             Ratios below 0.8 indicate potential discrimination.
+
+
+Case Study 2: Facial Recognition in Policing
+
+    1. Ethical Risks
+      A. Wrongful Arrests & Misidentification
+         - Higher error rates for minorities increase the risk of detaining innocent individuals and reinforce systemic injustice.
+      B. Privacy Violations
+         - Facial recognition can track individuals across public spaces, eroding anonymity and enabling mass surveillance.
+      C. Discrimination & Inequality
+         - Unequal error rates disproportionately affect minority communities, widening trust gaps between citizens and law enforcement.
+      D. Lack of Transparency
+         - Police may deploy systems without disclosing the model’s performance, usage protocols, or decision-making criteria.
+      E. Chilling Effect on Civil Liberties
+         - Continuous monitoring discourages free expression, protest participation, and public assembly.
+
+    2. Policies for Responsible Deployment
+      Policy 1: Mandatory Bias & Performance Audits
+         - Require independent testing across demographic groups. Systems with high disparity must not be used.
+      Policy 2: Human-in-the-Loop Enforcement
+         - AI outputs should never be the sole basis for arrests or searches. Officers must verify identity manually.
+      Policy 3: Public Transparency Requirements
+         - Publish error rates, model documentation, usage policies, and community impact assessments.
+      Policy 4: Strong Data Protection Rules
+         - Limit image retention, prevent mass surveillance use, and strictly regulate video feed analysis.
+      Policy 5: Legal Framework & Oversight
+         - Require warrants for facial-recognition searches and establish independent ethics committees for monitoring.
+      Policy 6: Redress and Appeal Mechanisms
+         - Ensure individuals can challenge misidentifications, correct data, and receive accountability for wrongful enforcement.
