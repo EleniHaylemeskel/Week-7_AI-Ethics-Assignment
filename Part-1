@@ -1,0 +1,39 @@
+Part 1: Theoretical Understanding
+1. Short Answer Questions
+
+      Q1: Define algorithmic bias and provide two examples of how it manifests in AI systems.
+          - Algorithmic bias occurs when an AI system produces unfair, inaccurate, or discriminatory results because of biased data, 
+          biased design choices, or biased assumptions built into the model.
+              Examples:
+                1. Facial recognition misidentifying darker-skinned individuals
+                       Many commercial facial recognition systems show higher error rates for women and people with darker skin 
+                       because the training datasets contain mostly light-skinned male faces.
+                2. Biased hiring algorithms
+                       An AI hiring tool may downgrade female applicants if it is trained on historical data from a company that 
+                       previously hired mostly men, causing the model to repeat those patterns.
+
+      Q2: Explain the difference between transparency and explainability in AI. Why are both important?
+          - Transparency means knowing how the AI system is built the data sources, algorithms used, training process, and who is accountable. 
+          It focuses on openness and access to information.
+          - Explainability means the AI can justify individual decisions in a human-understandable way showing why a specific prediction or output was made.
+        
+            Why both matter:
+              - Transparency builds trust and allows auditing for errors, bias, or unethical design.
+              - Explainability helps users understand and challenge decisions, especially in high-risk areas like healthcare, finance, and law enforcement.
+                 Together, they ensure AI systems are not "black boxes."
+                 
+      Q3: How does GDPR (General Data Protection Regulation) impact AI development in the EU?
+          - GDPR affects AI development by enforcing strict rules on how personal data can be collected, processed, and used. Key impacts include:
+              1. Data minimization : AI developers must only collect data that is necessary, reducing large, unrestricted data harvesting.
+              2. Right to explanation : Individuals can request explanation for automated decisions, pushing developers to build more interpretable models.
+              3. Strict consent requirements : Users must clearly agree to their data being used, affecting training data pipelines.
+              4. Protection against automated decision-making : Individuals can contest decisions made solely by algorithms, requiring human oversight.
+              5. Severe penalties : Companies violating GDPR face heavy fines, making ethical data handling essential.
+          - GDPR ultimately pushes developers toward privacy-preserving, transparent, and accountable AI systems.
+
+2. Ethical Principles Matching
+
+      A) Justice - Fair distribution of AI benefits and risks.
+      B) Non-maleficence - Ensuring AI does not harm individuals or society.
+      C) Autonomy - Respecting users’ right to control their data and decisions.
+      D) Sustainability - Designing AI to be environmentally friendly.
