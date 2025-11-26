@@ -1,0 +1,19 @@
+Bonus Task: Policy Proposal - Ethical AI in Healthcare
+Objective: Establish guidelines to ensure AI systems in healthcare are responsible, fair, and patient-centered.
+
+    1. Patient Consent Protocols
+Informed Consent: Patients must be clearly informed about AI usage, data collection, and intended outcomes before any automated decision-making.
+Opt-In Mechanism: Participation in AI-assisted diagnostics or treatment recommendations should be voluntary.
+Right to Withdraw: Patients can revoke consent at any time, with their data removed from AI training pipelines.
+    2. Bias Mitigation Strategies
+Diverse Training Data: Ensure datasets represent different demographics (age, gender, ethnicity, medical history) to avoid biased predictions.
+Fairness Audits: Periodically evaluate AI models using metrics such as demographic parity, equalized odds, and false positive/negative rates across patient groups.
+Algorithmic Adjustments: Apply reweighing, adversarial debiasing, or threshold adjustments to reduce disparities in healthcare recommendations.
+    3. Transparency Requirements
+Explainable AI: Systems must provide human-understandable explanations for predictions, diagnoses, or treatment suggestions.
+Documentation: Maintain detailed records of model architecture, training data sources, and validation results.
+Reporting & Accountability: Establish protocols for reporting errors, unintended outcomes, or potential biases. Assign human oversight for all high-stakes decisions.
+
+    Summary:
+ AI in healthcare must prioritize patient autonomy, fairness, and safety. Adhering to consent protocols, implementing rigorous bias mitigation, 
+and maintaining transparency ensures AI tools enhance healthcare outcomes without compromising ethical standards.
